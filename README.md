@@ -7,3 +7,10 @@ Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Windows-Subsystem-
 ```powershell
 wsl --install -d Ubuntu --name ubuntu-react
 ```
+
+!tip: you need to be using version 2.4.4 or newer of WSL.
+```powershell
+wsl --update
+wsl --shutdown
+wsl --version
+```
